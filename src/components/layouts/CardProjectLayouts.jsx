@@ -31,7 +31,7 @@ const CardProjectLayouts = () => {
     return <div className='loading'>Error: {error}</div>;
   }
 
-  const sortedData = data.data.sort((a, b) => new Date(b.date) - new Date(a.date));
+  const sortedData = data.project.sort((a, b) => new Date(b.date) - new Date(a.date));
   return (
     <div>
         <div className="project">

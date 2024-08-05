@@ -1,22 +1,31 @@
 import CardProjectLayouts from "../layouts/CardProjectLayouts";
 import FooterLayouts from "../layouts/FooterLayouts";
-import NavigationPopupLayouts from "../layouts/NavigationPopupLayouts";
+import NavigationPopupHomeLayouts from "../layouts/NavigationPopupHomeLayouts";
 import NavigationLayouts from "../layouts/NavigationLayouts";
+import ExperienceLayouts from "../layouts/ExperienceLayouts";
 
 const HomePages = () => {
     return (
         <div>
             <NavigationLayouts></NavigationLayouts>
             <div className="hero">
-                <h1>Convert Design into Code with <em><u>Pixel Perfect</u></em></h1>
-                <p>Hai, im Yogawan. I hate school, but i so fucking like and people crazy about learning.</p>
-                <p className="red">*This content can't be loaded because Developer uncomplete this project</p>
+                <h1>Hi, i'm Yogawan.<br />a <em><u>MERN Stack</u></em> and <em><u>UI Designer</u></em></h1>
+                <p>~ Convert Design into Code with <em><u>Pixel Perfect</u></em></p>
+                <div className="list">
+                    <div className="content">
+                        <img src="./m.png" alt="img" />
+                        <img src="./e.png" alt="img" />
+                        <img src="./r.png" alt="img" />
+                        <img src="./n.png" alt="img" />
+                    </div>
+                    <div className="content">
+                        <img src="./f.svg" alt="img" />
+                    </div>
+                </div>
             </div>
-            <div>
-                <br />
-            </div>
-            <FooterLayouts></FooterLayouts>
-            <NavigationPopupLayouts></NavigationPopupLayouts>
+            <ExperienceLayouts></ExperienceLayouts>
+            <NavigationPopupHomeLayouts></NavigationPopupHomeLayouts>
+            <div className="bottom"></div>
         </div>
     )
 }

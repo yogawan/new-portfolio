@@ -1,4 +1,35 @@
+import React, { useEffect, useState } from 'react';
+import fetchData from '../../service/api/dataFetching';
+
+import FooterLayouts from './FooterLayouts';
+
 const CardCertificateLayouts = () => {
+    const [data, setData] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+  
+    useEffect(() => {
+      const getData = async () => {
+        try {
+          const result = await fetchData();
+          setData(result);
+          setLoading(false);
+        } catch (error) {
+          setError(error.message);
+          setLoading(false);
+        }
+      };
+  
+      getData();
+    }, []);
+  
+    if (loading) {
+      return <div className='loading'>Loading...</div>;
+    }
+  
+    if (error) {
+      return <div className='loading'>Error: {error}</div>;
+    }
     return (
         <div>
             <div>
@@ -421,6 +452,23 @@ const CardCertificateLayouts = () => {
                     </div>
                 </div>
             </div>
+            <hr />
+            <div className="certificate">
+                <h2>32 Certificate as Front-End Web Developer</h2>
+                <div className="card">
+                    {data.certificate.map((item) => (
+                        <div className="card-content">
+                            <img src={item.img} alt="img" />
+                            <h3>{item.title}</h3>
+                            <p>{item.published}</p>
+                            <div className="tag">
+                                <a href={item.link}>View Certificates</a>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <FooterLayouts></FooterLayouts>
         </div>
     );
 };

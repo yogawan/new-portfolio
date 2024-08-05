@@ -8,7 +8,6 @@ const CertificatePages = () => {
         <div>
             <NavigationLayouts></NavigationLayouts>
             <CardCertificateLayouts></CardCertificateLayouts>
-            <FooterLayouts></FooterLayouts>
             <NavigationPopupLayouts></NavigationPopupLayouts>
         </div>
     )

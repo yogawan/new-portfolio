@@ -2,6 +2,14 @@ const CardCertificateLayouts = () => {
     return (
         <div>
             <div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
+            <div>
                 <h2>42+ Certification</h2>
                 <p>~ I actively study outside campus, looking for learning materials myself. Because the curriculum at my campus is not relevant to what the industry currently needs</p>
             </div>

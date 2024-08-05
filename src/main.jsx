@@ -9,12 +9,12 @@ import CertificatePages from './components/pages/CertificatePages';
 import ProjectPages from './components/pages/ProjectPages';
 
 const router = createBrowserRouter([
-  // {
-  //   path: '/',
-  //   element: <HomePages></HomePages>
-  // },
   {
     path: '/',
+    element: <HomePages></HomePages>
+  },
+  {
+    path: '/project',
     element: <ProjectPages></ProjectPages>
   },
   {

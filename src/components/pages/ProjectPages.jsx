@@ -1,12 +1,13 @@
 import CardProjectLayouts from "../layouts/CardProjectLayouts";
-import FooterLayouts from "../layouts/FooterLayouts";
+import NavigationPopupLayouts from "../layouts/NavigationPopupLayouts";
 import NavigationLayouts from "../layouts/NavigationLayouts";
 
 const ProjectPages = () => {
     return (
         <div>
-            <CardProjectLayouts></CardProjectLayouts>
             <NavigationLayouts></NavigationLayouts>
+            <CardProjectLayouts></CardProjectLayouts>
+            <NavigationPopupLayouts></NavigationPopupLayouts>
         </div>
     )
 }

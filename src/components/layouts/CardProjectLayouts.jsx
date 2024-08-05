@@ -34,7 +34,7 @@ const CardProjectLayouts = () => {
   const sortedData = data.data.sort((a, b) => new Date(b.date) - new Date(a.date));
   return (
     <div>
-        <div className="card">
+        <div className="project">
             {sortedData.map((item) => (
                 <div className="content">
                     <img src={item.img} alt="img" />

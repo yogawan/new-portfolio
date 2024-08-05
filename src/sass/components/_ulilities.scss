@@ -1,7 +1,8 @@
-.card {
+.project {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 100px;
     .content {
         width: 400px;
         margin-bottom: 32px;
@@ -195,16 +196,16 @@ footer {
     }
 }
 
-nav {
+.nav {
     display: flex;
     position: fixed;
     bottom: 12px;
     right: 3px;
     background-color: transparent;
-    ul {
+    .ul {
         display: flex;
         background-color: transparent;
-        li {
+        .li {
             display: flex;
             list-style: none;
             background-color: #171717;
@@ -227,7 +228,42 @@ nav {
     }
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #FFFFFF25;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    ul {
+        display: flex;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        li {
+            display: flex;
+            padding: 12px;
+            margin-right: 6px;
+            a {
+                font-size: 12px;
+            }
+            img {
+                width: 16px;
+                margin-right: 6px;
+            }
+        }
+        li:hover {
+            border-bottom: 1px solid #FFFFFF15;
+        }
+    }
+}
+
 hr {
     border: none;
     border-top: 1px solid #FFFFFF25;
+}
+
+.hero {
+    margin-top: 128px;
+    text-align: center
 }

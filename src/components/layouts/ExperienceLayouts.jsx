@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import fetchData from '../../service/api/dataFetching';
 
 import FooterLayouts from './FooterLayouts';
+import AboutLayouts from './AboutLayouts';
+import AboutMeLayouts from './AboutMeLayouts';
 
 const CardProjectLayouts = () => {
   const [data, setData] = useState([]);
@@ -65,6 +67,7 @@ const CardProjectLayouts = () => {
                 </div>
             ))}
         </div>
+        <AboutLayouts></AboutLayouts>
         <FooterLayouts></FooterLayouts>
     </div>
   );

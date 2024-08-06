@@ -273,6 +273,19 @@ hr {
     .list {
         display: flex;
         justify-content: center;
+        .tag {
+            padding: 6px;
+            border: 1px solid #FFFFFF25;
+            width: fit-content;
+            border-radius: 100px;
+            margin-left: 2px;
+            margin-right: 2px;
+            img {
+                width: 32px;
+                margin-left: 3px;
+                margin-right: 3px;
+            }
+        }
         .content {
             padding: 6px;
             border: 1px solid #FFFFFF25;
@@ -308,6 +321,7 @@ hr {
         .content {
             display: flex;
             align-items: center;
+            flex-wrap: wrap;
             border-bottom: 1px solid #FFFFFF25;
             padding-bottom: 12px;
             padding-top: 24px;
@@ -340,7 +354,7 @@ hr {
                         padding-bottom: 3px;
                         margin-left: 1px;
                         margin-right: 1px;
-                        margin-bottom: 2px;
+                        margin-bottom: 3px;
                         border-radius: 100px;
                         border: 1px solid #FFFFFF25;
                         p {
@@ -351,6 +365,98 @@ hr {
                         margin-right: 12px;
                     }
                 }
+            }
+        }
+    }
+}
+
+.about {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    h2 {
+        text-align: center;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 32px;
+        .left {
+            width: 300px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+            p {
+                text-align: right;
+            }
+            h2 {
+                text-align: right;
+            }
+            img {
+                width: 100%;
+                border: 1px solid #FFFFFF25;
+                border-radius: 12px;
+            }
+        }
+        .right {
+            width: 300px;
+            margin-left: 12px;
+            p {
+                text-align: left;
+            }
+            h2 {
+                text-align: left;
+            }
+            img {
+                width: 100%;
+                border: 1px solid #FFFFFF25;
+                border-radius: 8px;
+            }
+        }
+    }
+}
+
+.about-me {
+    margin-top: 32px;
+    margin-bottom: 64px;
+    h2 {
+        text-align: center;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 32px;
+        .left {
+            width: 300px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+            p {
+                text-align: right;
+            }
+            h2 {
+                text-align: right;
+            }
+            img {
+                width: 100%;
+                border: 1px solid #FFFFFF25;
+                border-radius: 12px;
+            }
+        }
+        .right {
+            width: 300px;
+            margin-left: 12px;
+            p {
+                text-align: left;
+            }
+            h2 {
+                text-align: left;
+            }
+            img {
+                width: 100%;
+                border: 1px solid #FFFFFF25;
+                border-radius: 8px;
             }
         }
     }

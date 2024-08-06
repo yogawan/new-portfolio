@@ -3,12 +3,18 @@ import FooterLayouts from "../layouts/FooterLayouts";
 import NavigationPopupHomeLayouts from "../layouts/NavigationPopupHomeLayouts";
 import NavigationLayouts from "../layouts/NavigationLayouts";
 import ExperienceLayouts from "../layouts/ExperienceLayouts";
+import AboutMeLayouts from "../layouts/AboutMeLayouts";
 
 const HomePages = () => {
     return (
         <div>
             <NavigationLayouts></NavigationLayouts>
             <div className="hero">
+            <div className="list">
+                    <div className="tag">
+                        <p><s>Let's start tomorrow</s> Just do it!</p>
+                    </div>
+                </div>
                 <h1>Hi, i'm Yogawan.<br />a <em><u>MERN Stack</u></em> and <em><u>UI Designer</u></em></h1>
                 <p>~ Convert Design into Code with <em><u>Pixel Perfect</u></em></p>
                 <div className="list">
@@ -23,6 +29,7 @@ const HomePages = () => {
                     </div>
                 </div>
             </div>
+            <AboutMeLayouts></AboutMeLayouts>
             <ExperienceLayouts></ExperienceLayouts>
             <NavigationPopupHomeLayouts></NavigationPopupHomeLayouts>
             <div className="bottom"></div>

@@ -1,5 +1,3 @@
-import CardProjectLayouts from "../layouts/CardProjectLayouts";
-import FooterLayouts from "../layouts/FooterLayouts";
 import NavigationPopupHomeLayouts from "../layouts/NavigationPopupHomeLayouts";
 import NavigationLayouts from "../layouts/NavigationLayouts";
 import ExperienceLayouts from "../layouts/ExperienceLayouts";

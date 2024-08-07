@@ -1,4 +1,4 @@
-export default HomePages = () => {
+const HomePages = () => {
     return (
         <div className="hero">
             <div className="list">
@@ -20,5 +20,7 @@ export default HomePages = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
+
+export default HomePages;

@@ -46,7 +46,7 @@ const CardCertificateLayouts = () => {
             </div>
             <hr />
             <div className="certificate">
-                <h2>32 Certificate as Front-End Web Developer</h2>
+                <h2>Certificate as Front-End Web Developer</h2>
                 <div className="card">
                     {data.certificate.map((item) => (
                         <div className="card-content">

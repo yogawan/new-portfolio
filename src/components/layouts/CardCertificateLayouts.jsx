@@ -349,48 +349,6 @@ const CardCertificateLayouts = () => {
             </div>
             <hr />
             <div className="certificate">
-                <h2>1 Certificate Competition</h2><br />
-                <div className="card">
-                    <div className="card-content" data-aos="zoom-in-left">
-                        <img src="/src/img/Competition/himatika.png" alt="img" />
-                        <h3>HIMATIKA UTY</h3>
-                        <p>Published Mar 2022, Credential ID -</p>
-                        <div className="tag">
-                            <a href="https://drive.google.com/file/d/1l12IRE5lT5afjTrYmgJ0BRN5gQ_tji17/view?usp=drive_link">View Certificates</a>
-                        </div>
-                    </div>
-                    <div className="card-content" data-aos="zoom-in-left">
-                        <h3>-</h3>
-                        <p>Published -, Credential ID -</p>
-                        <div className="tag">
-                            <a href="#">View Certificates</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr />
-            <div className="certificate">
-                <h2>1 Certificate React Developer</h2><br />
-                <div className="card">
-                    <div className="card-content" data-aos="zoom-in-left">
-                        <img src="/src/img/React/01.png" alt="img" />
-                        <h3>Skilvul</h3>
-                        <p>Published June 2024, Credential ID -</p>
-                        <div className="tag">
-                            <a href="https://drive.google.com/file/d/1l12IRE5lT5afjTrYmgJ0BRN5gQ_tji17/view?usp=drive_link">View Certificates</a>
-                        </div>
-                    </div>
-                    <div className="card-content" data-aos="zoom-in-left">
-                        <h3>-</h3>
-                        <p>Published -, Credential ID -</p>
-                        <div className="tag">
-                            <a href="#">View Certificates</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr />
-            <div className="certificate">
             <h2>5 Certificate as UX Writing</h2>
             {/* <p>In this certificate course, I learned a lot about using Figma. from Figjam, Wireframing, Designing and Protoyping. I also learned basic UI Fundamentals and UX Fundamentals to become my foundation in designing.</p> */}
             <br />
@@ -451,6 +409,48 @@ const CardCertificateLayouts = () => {
                     </div>
                 </div>
             </div>
+            </div>
+            <hr />
+            <div className="certificate">
+                <h2>1 Certificate Competition</h2><br />
+                <div className="card">
+                    <div className="card-content" data-aos="zoom-in-left">
+                        <img src="/src/img/Competition/himatika.png" alt="img" />
+                        <h3>HIMATIKA UTY</h3>
+                        <p>Published Mar 2022, Credential ID -</p>
+                        <div className="tag">
+                            <a href="https://drive.google.com/file/d/1l12IRE5lT5afjTrYmgJ0BRN5gQ_tji17/view?usp=drive_link">View Certificates</a>
+                        </div>
+                    </div>
+                    <div className="card-content" data-aos="zoom-in-left">
+                        <h3>-</h3>
+                        <p>Published -, Credential ID -</p>
+                        <div className="tag">
+                            <a href="#">View Certificates</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div className="certificate">
+                <h2>1 Certificate React Developer</h2><br />
+                <div className="card">
+                    <div className="card-content" data-aos="zoom-in-left">
+                        <img src="/src/img/React/01.png" alt="img" />
+                        <h3>Skilvul</h3>
+                        <p>Published June 2024, Credential ID -</p>
+                        <div className="tag">
+                            <a href="https://drive.google.com/file/d/1l12IRE5lT5afjTrYmgJ0BRN5gQ_tji17/view?usp=drive_link">View Certificates</a>
+                        </div>
+                    </div>
+                    <div className="card-content" data-aos="zoom-in-left">
+                        <h3>-</h3>
+                        <p>Published -, Credential ID -</p>
+                        <div className="tag">
+                            <a href="#">View Certificates</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <hr />
             <div className="certificate">

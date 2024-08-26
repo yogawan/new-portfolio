@@ -46,6 +46,22 @@ const CardCertificateLayouts = () => {
             </div>
             <hr />
             <div className="certificate">
+                <h2>32 Certificate as Front-End Web Developer</h2>
+                <div className="card">
+                    {data.certificate.map((item) => (
+                        <div className="card-content">
+                            <img src={item.img} alt="img" />
+                            <h3>{item.title}</h3>
+                            <p>{item.published}</p>
+                            <div className="tag">
+                                <a href={item.link}>View Certificates</a>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <hr />
+            <div className="certificate">
                 <h2>36 Certificate as UI Designer</h2>
                 <br />
                 <div className="card">
@@ -450,22 +466,6 @@ const CardCertificateLayouts = () => {
                             <a href="#">View Certificates</a>
                         </div>
                     </div>
-                </div>
-            </div>
-            <hr />
-            <div className="certificate">
-                <h2>32 Certificate as Front-End Web Developer</h2>
-                <div className="card">
-                    {data.certificate.map((item) => (
-                        <div className="card-content">
-                            <img src={item.img} alt="img" />
-                            <h3>{item.title}</h3>
-                            <p>{item.published}</p>
-                            <div className="tag">
-                                <a href={item.link}>View Certificates</a>
-                            </div>
-                        </div>
-                    ))}
                 </div>
             </div>
             <FooterLayouts></FooterLayouts>

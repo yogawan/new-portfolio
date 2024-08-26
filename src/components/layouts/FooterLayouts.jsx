@@ -7,7 +7,7 @@ const FooterLayouts = () => {
                 <h3>About Me</h3>
                 <hr />
                 <p className='p'>
-                    I have expertise in the field of art, since childhood I have had above average talent in drawing. Because I like computers. I decided to study Graphic Design. I have internship experience as a Graphic Design at a company in Klaten. I felt unsatisfied, so I finally learned Front-End Web Dev and UI Design.
+                    I am a disciplined person, consistent and focused on things that interest me.
                  </p>
             </div>
             <div className='content'>

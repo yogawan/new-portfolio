@@ -6,7 +6,7 @@ const HomePages = () => {
                     <p><s>Let's start tomorrow</s> Just do it!</p>
                 </div>
             </div>
-            <h1>Hi, i'm Yogawan.<br />a <em><u>MERN Stack</u></em> and <em><u>UI Designer</u></em></h1>
+            <h1>Hi, i'm Yogawan.<br />a <em><u>Front-End</u></em> and <em><u>UI Designer</u></em></h1>
             <p>~ Convert Design into Code with <em><u>Pixel Perfect</u></em></p>
             <div className="list">
                 <div className="content">

@@ -1,12 +1,14 @@
 .project {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     padding-top: 100px;
     .content {
         width: 400px;
         margin-bottom: 32px;
         margin-top: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
         img {
             width: 100%;
             border: 1px solid #FFFFFF15;
@@ -110,7 +112,7 @@ footer {
     padding-bottom: 64px;
     border-top: 1px solid #FFFFFF35;
     background-color: #202020;
-    border-radius: 16px;
+    // border-radius: 16px;
     padding-left: 16px;
     padding-right: 16px;
     position: fixed;
@@ -248,6 +250,7 @@ nav {
             display: flex;
             padding: 12px;
             margin-right: 6px;
+            border: 1px solid transparent;
             a {
                 font-size: 12px;
             }
@@ -257,7 +260,8 @@ nav {
             }
         }
         li:hover {
-            border-bottom: 1px solid #FFFFFF15;
+            border: 1px solid #FFFFFF15;
+            border-radius: 100px;
         }
     }
 }
@@ -303,7 +307,7 @@ hr {
 }
 
 .bottom {
-    padding-bottom: 64px;
+    padding-bottom: 3px;
     border-bottom: #FFFFFF25
 }
 
@@ -322,11 +326,13 @@ hr {
             display: flex;
             align-items: center;
             flex-wrap: wrap;
-            border-bottom: 1px solid #FFFFFF25;
+            // border-bottom: 1px solid #FFFFFF25;
             padding-bottom: 12px;
             padding-top: 24px;
-            margin-left: 12px;
-            margin-right: 12px;
+            margin: 6px;
+            padding: 16px;
+            border: 1px solid #FFFFFF25;
+            border-radius: 20px;
             .left {
                 display: flex;
                 flex-wrap: wrap;

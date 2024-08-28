@@ -5,69 +5,14 @@ const AboutLayouts = () => {
             <p className="h2">Nah bro, i belive can <em><u>change the world</u></em></p>
             <div className="content">
                 <div className="left">
-                    <img src="./ht.png" alt="img" />
+                    <img src="https://cdn.prod.website-files.com/6527bf47284ee870b06888fe/656efb01f6a70e46cf091697_wp4251190.jpg" alt="img" />
                 </div>
                 <div className="right">
-                    
-                    <p>"Anyone can <em><u>face victory</u></em>, but only great people can <em><u>face defeat</u></em>"</p>
-                    <p>~ <u>Adolf Hitler</u></p>
-                    <p>1889 – 1945</p>
+                    <p>Rule No. 1: Never <em><u>lose money.</u></em> Rule No. 2: Never <em><u>forget Rule No. 1</u></em></p><hr />
+                    <p><em>"Price is what you pay. Value is what you get."</em></p>
+                    <p>~ Warren Buffett</p>
                 </div>
             </div>
-            {/* <div className="content">
-                <div className="left">
-                    <img src="./sh.png" alt="img" />
-                </div>
-                <div className="right">
-                    <h2>Saddam Hussein</h2>
-                    <p>1937 - 2006</p>
-                </div>
-            </div>
-            <div className="content">
-                <div className="left">
-                    <h2>Fidel Castro</h2>
-                    <p>1926 - 2016</p>
-                </div>
-                <div className="right">
-                    <img src="./fc.png" alt="img" />
-                </div>
-            </div>
-            <div className="content">
-                <div className="left">
-                    <img src="./cg.png" alt="img" />
-                </div>
-                <div className="right">
-                    <h2>Che Guevara</h2>
-                    <p>1928 - 1967</p>
-                </div>
-            </div>
-            <div className="content">
-                <div className="left">
-                    <h2>Lee Kuan Yew</h2>
-                    <p>16 Sep 1923 – 23 Mar 2015</p>
-                </div>
-                <div className="right">
-                    <img src="./lee.png" alt="img" />
-                </div>
-            </div>
-            <div className="content">
-                <div className="left">
-                    <img src="./pe.png" alt="img" />
-                </div>
-                <div className="right">
-                    <h2>undefine.</h2>
-                    <p>undefine.</p>
-                </div>
-            </div>
-            <div className="content">
-                <div className="left">
-                    <h2>Muammar khadafi</h2>
-                    <p>1942 - 2011</p>
-                </div>
-                <div className="right">
-                    <img src="./mg.png" alt="img" />
-                </div>
-            </div> */}
         </div>
     )
 }

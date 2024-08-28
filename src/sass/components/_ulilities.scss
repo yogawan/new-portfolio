@@ -291,6 +291,8 @@ hr {
             }
         }
         .content {
+            display: flex;
+            align-items: center;
             padding: 6px;
             border: 1px solid #FFFFFF25;
             width: fit-content;
@@ -302,6 +304,9 @@ hr {
                 margin-left: 3px;
                 margin-right: 3px;
             }
+        }
+        .next {
+            border: none;
         }
     }
 }
@@ -332,7 +337,7 @@ hr {
             margin: 6px;
             padding: 16px;
             border: 1px solid #FFFFFF25;
-            border-radius: 20px;
+            border-radius: 12px;
             .left {
                 display: flex;
                 flex-wrap: wrap;

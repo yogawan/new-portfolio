@@ -4,7 +4,7 @@ const FooterLayouts = () => {
     return (
         <footer>
             <div className='content'>
-                <h3>About Me</h3>
+                <h3>Yogawan's</h3>
                 <hr />
                 <p className='p'>
                     I am a disciplined person, consistent and focused on things that interest me.

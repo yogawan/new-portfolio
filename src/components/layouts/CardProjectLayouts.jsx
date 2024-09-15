@@ -42,8 +42,8 @@ const CardProjectLayouts = () => {
                         <h2>{item.title}</h2>
                         <img src="./arrow.svg" alt="" />
                     </div>
-                    <hr />
                     <p className='description'>{item.description}</p>
+                    <hr />
                     <p className='type'>{item.type}</p>
                     <div className="tech">
                         <p>{item.t1}</p>
@@ -52,11 +52,16 @@ const CardProjectLayouts = () => {
                         <p>{item.t4}</p>
                     </div>
                     <div className="time">
-                        <img src="./time.svg" alt="img" />
-                        <p>{item.date}</p>
+                      <img src="./time.svg" alt="Time Icon" />
+                      <p>{new Date(item.date).toLocaleDateString("id-ID", {
+                        day: "numeric",
+                        month: "long",
+                        year: "numeric"
+                      })}</p>
                     </div>
                     <li>
-                        <img src="./link.svg" alt="img" /><a href={item.link}>Go to Project</a>
+                        {/* <img src="./link.svg" alt="img" /> */}
+                        <a href={item.link}>Go to Project</a>
                     </li>
                 </div>
             ))}

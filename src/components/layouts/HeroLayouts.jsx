@@ -22,10 +22,10 @@ const HomePages = () => {
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png" alt="img" />
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" alt="imgs" />
                 </div>
-                <hr />
+                {/* <hr />
                 <div className="content">
                     <img src="./f.svg" alt="imgs" />
-                </div>
+                </div> */}
             </div>
         </div>
     );

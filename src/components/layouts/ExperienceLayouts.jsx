@@ -4,6 +4,7 @@ import fetchData from '../../service/api/dataFetching';
 import FooterLayouts from './FooterLayouts';
 import AboutLayouts from './AboutLayouts';
 import AboutMeLayouts from './AboutMeLayouts';
+import CardGalleryLayouts from './CardGalleryLayouts';
 
 const CardProjectLayouts = () => {
   const [data, setData] = useState([]);
@@ -67,6 +68,7 @@ const CardProjectLayouts = () => {
                 </div>
             ))}
         </div>
+        <CardGalleryLayouts></CardGalleryLayouts>
         <AboutLayouts></AboutLayouts>
         <FooterLayouts></FooterLayouts>
     </div>

@@ -1,36 +1,41 @@
-import { Link } from 'react-router-dom'
-
 const FooterLayouts = () => {
     return (
         <footer>
-            <div className='content'>
-                <h3>Yogawan's</h3>
-                <hr />
-                <p className='p'>
-                    I am a disciplined person, consistent and focused on things that interest me.
-                 </p>
-            </div>
-            <div className='content'>
-                <h3>Links</h3>
-                <hr />
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/certificate">Certificate</Link></li>
-                <li><Link to="/project">Project</Link></li>
-            </div>
-            <div className='content'>
-                <h3>Social</h3>
-                <hr />
-                <li><a href="https://github.com/yogawan">GitHub</a></li>
-                <li><a href="https://g.dev/yogawan">GD Profile</a></li>
-                <li><a href="#">Linkedin</a></li>
-            </div>
-            <div className='content'>
-                <h3>Project</h3>
-                <hr />
-                <li><a href="#">Verdex</a></li>
-                <li><a href="#">Akudav</a></li>
+            <ul>
+                <li><img src="./logo.png" alt="" /></li>
+                <li><p>Copyright@2024 Orvynex</p></li>
+            </ul>
+            <ul>
+                <h3>About</h3>
+                <li><p>Karepmu Creative adalah sebuah perusahaan fiktif untuk bahan latihan projek-projek frontend</p></li>
+            </ul>
+            <ul>
+                <h3>Service</h3>
+                <li><a href="#">UI Design</a></li>
+                <li><a href="#">Fullstack</a></li>
+                <li><a href="#">3D Design</a></li>
+                <li><a href="#">Video Editing</a></li>
+                <li><a href="#">Graphic Design</a></li>
+            </ul>
+            <ul>
+                <h3>Work</h3>
+                <li><a href="#">RoundRobin</a></li>
+                <li><a href="#">Edufree</a></li>
+                <li><a href="#">Jobless</a></li>
+                <li><a href="#">Klatentravel</a></li>
                 <li><a href="#">JawirAI</a></li>
-            </div>
+                <li><a href="#">Koin</a></li>
+                <li><a href="#">Solo Weather</a></li>
+            </ul>
+            <ul>
+                <h3>Links</h3>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+            </ul>
+            <ul>
+                <h3>Legal</h3>
+                <li><a href="#">Privacy & Policy</a></li>
+            </ul>
         </footer>
     );
 };
